@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <h1 class='title' id='first-title'>First Title <span>span</span></h1>
+      <h1 class='title' id='second-title'>Second Title</h1>
+      <h1 class='title' id='third-title'>Third Title</h1>
+      <h1></h1>
+    </div>
+    <div class="card">
+      <form action="mailto:contact@yourdomain.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+        <input class="search" title="secr" value="1234" id="search" name="Contact-Message"> </input>
+        <h4>HEADLINE</h4>
+        <span onmouseleave="this.innerHTML = 'Click'"  onclick="this.innerHTML = 'merhaba'" id="btn" class="first" title="buttun" >Click me!</span>
+        <ul id="list">
+          <li><a href="index.html">Number One</a></li>
+          <li><a href="index.html">Number Two</a></li>
+          <li><a href="index.html">Number Three</a></li>
+          <li><a href="index.html">Number Four</a></li></ul>
+        <button onclick="clickF()" type="button" value="Submit">Send</button>
+      </form>
+      <img id="img" src="" benimAttribue="ff" >
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
